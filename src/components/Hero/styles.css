@@ -1,0 +1,35 @@
+.image--container {
+  max-height: 50vh;
+  border-radius: 10px;
+  background-color: #adb5bd;
+  color: var(--principal-color);
+  width: 70vw;
+  margin: 20px auto 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+@media screen and (max-width: 844px) {
+  .image--container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .image--container {
+    font-size: 0.8em;
+  }
+  .image--container img {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 3750px) {
+  .image--container {
+    font-size: 0.8em;
+  }
+  .image--container img {
+    width: 160px;
+  }
+}
